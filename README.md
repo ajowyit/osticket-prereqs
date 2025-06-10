@@ -9,6 +9,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
 - [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)(For reference purposes. Link to download zip file is below.)
+- [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)(For reference purposes. Link to download zip file is below.)
 
 <h2>💻 Environments and Technologies</h2>
 
