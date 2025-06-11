@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - In Azure, create a virtual machine named osTicket-vm. Refer back to this previous project if needed:[Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines). Use the same configurations.
 - Log into it.
-- [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) 
+- Open a browser like Microsoft Edge and paste this link to download the .zip file for osTicket: [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) 
 
 <p>- Log in to the osTicket-vm, copy the osTicket Installation Files link above, and paste it into the browser. This will take you to the zip file containing what we need to install osTicket to the VM.</p>
 <p>- Yes, it is a large file but click Download anyway.</p>
