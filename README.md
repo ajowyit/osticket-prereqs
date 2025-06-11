@@ -139,8 +139,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
+<p>
+<img width="1131" alt="Screenshot 2025-06-10 at 9 03 05 PM" src="https://github.com/user-attachments/assets/b43ad3ee-82b7-48ec-87a2-171814535f45" />
 
-<p>- Next, install the Rewrite Module. (rewrite_amd64_en-US.msi) Agree and click Next to everything.</p>
+<img width="500" alt="Screenshot 2025-06-10 at 9 03 25 PM" src="https://github.com/user-attachments/assets/d35e8e47-1c64-43e0-949c-913463b27651" />
+
+<img width="497" alt="Screenshot 2025-06-10 at 9 03 55 PM" src="https://github.com/user-attachments/assets/87fbec7d-2684-4618-a64d-21090cf402b0" />
+
+</p>
+
+<p>
+ - Next we want to install the Rewrite Module. Double click rewrite_amd64_en-US.msi. Accept the terms in the License Agreement and click "Install" installer window pops up. Then click "Finish" once it's done.
+</p>
 <br/>
 
 <table>
@@ -153,7 +163,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Create a directory on the C drive called PHP. </p>
+<p>
+ - Next we want to create a directory on the C drive called PHP. 
+</p>
 <p>- Navigate to Windows(C:) via File Explorer and create a new folder named "PHP". </p>
 <p>- Back to the osTicket Installation Files, right-click the (php-7.3.8-nts-Win32-VC15-x86) file and select Extrat All...</p>
 <br/>
