@@ -69,40 +69,51 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
  - Confirm the correct destination (C:\Users\{username}\Desktop\osTicket-Installation-Files). Click Extract. Make sure the folder is called "osTicket-Installation-Files"</p>
-<p>- Once the folder is finished extracting, you may have to minimize a window to see it. It should appear by the Browser icon on the Desktop.</p>
-<p>- We will use the files in this folder to install osTicket. I moved the install folder to the top right of my screen (for easy locate) and moved the zip file to a bottom corner to ignore for the rest of the lab. This was to prevent mixing them up because its about to get saucy. 😏 (You can move the zip file to the recycle bin. I didn't realize that til later in the lab.)</p>
+<p>
+ - After the folder is finished extracting all the files, you may have to minimize your windows to see it, but there should be an icon for the folder of the actual osTicket installation files on the browser.
+</p>
+<p>
+ - We will use the files in this folder to install osTicket. You can delete the .zip file now it is no longer needed.
+</p>
 <br/>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" height="250" alt="OT6" src="https://github.com/user-attachments/assets/433aeaa6-dc4b-4cbb-9456-9e3cff806dcd" />
-    </td>
-    <td>
-      <img width="1000" height="250" alt="OT7" src="https://github.com/user-attachments/assets/28980f89-23d1-4d4f-b963-2379a369dc33" />
-    </td>
-  </tr>
-</table>
-<p>- Now we're going to enable IIS (Internet Information Services) within Windows and ensure CGI is installed as well.</p>
-<p>- From the Start Menu, go to Control Panel and click Uninstall a program.</p>
-<p>- Next, click Turn Windows features on or off. You'll probably want to expand the window that opens.</p>
+<p>
+ <img width="786" alt="Screenshot 2025-06-10 at 7 56 50 PM" src="https://github.com/user-attachments/assets/16d3aea6-f079-4ba7-a5b2-547c02f9471c" />
+<img width="1125" alt="Screenshot 2025-06-10 at 7 57 16 PM" src="https://github.com/user-attachments/assets/d2af43ba-dcc4-4ac9-bbc2-c1efe24ababd" />
+<img width="1127" alt="Screenshot 2025-06-10 at 7 58 49 PM" src="https://github.com/user-attachments/assets/d7afa8f6-4891-45c2-9498-f61423fcca18" />
+<img width="906" alt="Screenshot 2025-06-10 at 8 00 17 PM" src="https://github.com/user-attachments/assets/09d78f35-3fea-4002-b3e7-816e4a51ee88" />
+</p>
+<p>
+ - Next we will enable IIS (Internet Information Services) within Windows WITH CGI as well.
+</p>
+<p>
+ - From the Start Menu, open up Control Panel. Under Programs, click "Uninstall a program". This should get you to the "Uninstall or change a program" window. 
+</p>
+<p>
+ - On the left side, click "Turn Windows features on or off". A window will open where we can turn Windows features on or off. It is recommended to expand the window so you can see more.
+</p>
 <br/>
 
+<p>
+<img width="904" alt="Screenshot 2025-06-10 at 8 03 36 PM" src="https://github.com/user-attachments/assets/2c07675a-b8d4-4ac0-ae19-215327b94c76" />
+<img width="907" alt="Screenshot 2025-06-10 at 8 05 02 PM" src="https://github.com/user-attachments/assets/e6e90e24-db1b-42f0-87f8-3191d4d75026" />
+<img width="1125" alt="Screenshot 2025-06-10 at 8 18 36 PM" src="https://github.com/user-attachments/assets/450f790b-64ea-47f5-acc7-6bac92de686c" />
+<img width="1036" alt="Screenshot 2025-06-10 at 8 37 44 PM" src="https://github.com/user-attachments/assets/4d63ee43-ca20-4d34-81ab-d225d9386402" />
+</p>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="OT8" src="https://github.com/user-attachments/assets/3ea9dc16-d359-4f79-8f2a-19506f13107f" />
-    </td>
-    <td>
-      <img width="1000" alt="OT9" src="https://github.com/user-attachments/assets/1641f3d0-ccff-40e2-8e03-856e3d5b17ff" />
-    </td>
-  </tr>
-</table>
-<p>- In Windows Features, enable Internet Information Services by clicking the box and then expand -> expand World Wide Web Services -> expand Application Development Features.</p>
-<p>- Check the box next to CGI and click OK. Let the install do it's thing and click Finish once it completes. </p>
-<p>- Jump over to the Browser and enter 127.0.0.1</p>
-<p>- The default webpage will be showing now that we installed ISS. Without IIS enbled, if we went to 127.0.0.1, the "Hmmm... can't reach this page" message would appear. </p>
+
+<p>
+ - In the Windows Features window, enable Internet Information Services by clicking the box. Then expand it. Then expand World Wide Web Services. Then expand Application Development Features.
+</p>
+<p>
+ - Check the box next to CGI and click OK. Let the install do it's thing and click Finish once it completes. A window may pop up saying that Windows needs to reboot your PC to finish installing the requested changes. Click "Restart Now" to finish installation.
+</p>
+<p>
+ - After restarting, go to the Browser and enter 127.0.0.1(the loopback address).
+</p>
+<p>
+ - The default page will be show that we installed ISS. Without IIS enbled, if we went to 127.0.0.1, the "Hmmm... can't reach this page" message would appear instead. Make sure we are on the Internet Innformation Services Page.
+</p>
 <br/>
 
 <table>
