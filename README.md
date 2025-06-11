@@ -446,16 +446,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Now run back to the osTicket Installation Files folder on the Desktop.🏃‍♂️‍➡️ We need to unzip (osTicket-v1.15.8.zip).</p>
-<p>- Right-click osTicket-v1.15.8.zip and select Extract... </p>
-<p>- Go ahead and extract the files into the osTicket-Installation-Files folder. You'll notice the new folder at the top. See Figure 28</p>
+<p>
+ - Go back to the osTicket Installation Files folder on the Desktop. We will unzip (osTicket-v1.15.8.zip).
+</p>
+<p>
+ - Right-click osTicket-v1.15.8.zip. Select "Extract..."
+</p>
+<p>
+ - Extract the files into the osTicket-Installation-Files folder. You'll see the new folder at the top. 
+</p>
 <br/>
 
 <img width="600" alt="OT30" src="https://github.com/user-attachments/assets/dbd3243f-71e4-4150-b6f0-fa3eeb10bdbf" />
 
-<p>- When it finishes extracting the files, double-click the new osTicket-v1.15.8 folder.</p>
-<p>- There will be two folders inside. Scripts and Upload. </p>
-<p>- Pause on this folder and move the window to the side for now. We'll be back for this in a couple seconds.</p>
+<p>
+ - Once the files are done extracting, double-click the new osTicket-v1.15.8 folder.
+</p>
+<p>
+ - There should be two folders inside: Scripts and Upload. 
+</p>
+<p>
+ -  We'll come back to this folder in a bit.
+</p>
 <br/>
 
 <table>
@@ -468,8 +480,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Use File Explorer and navigate to the C drive. (Windows(C:).</p>
-<p>- Open inetpub. Within inetpub, open wwwroot. </p>
+<p>
+ - In File Explorer, navigate to the C drive. (Windows(C:).
+</p>
+<p>
+ - Open inetpub. In inetpub, open wwwroot. 
+</p>
 <br/>
 
 <table>
@@ -482,16 +498,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- ⚠️ Now, drag the "upload" folder from "osTicket-v1.15.8" folder and drop into the "wwwroot" folder. ⚠️</p>
-<p>- DO NOT just copy and paste. I made this mistake during my first run through of the lab and osTicket failed to launch at the end.🤦‍♂️😩  </p>
-<p>- Confirm the "upload" folder actually moved from "osTicket-v1.15.8" and into "wwwroot". See Figure 33</p>
+<p>
+ - Drag the "upload" folder from the "osTicket-v1.15.8" folder and drop it into the "wwwroot" folder. 
+</p>
+<p>
+ - DO NOT  copy and paste.  
+</p>
+<p>
+ - Confirm that the "upload" folder  moved from "osTicket-v1.15.8" and into "wwwroot". 
+</p>
 <br/>
 
 <img width="600" alt="OT35" src="https://github.com/user-attachments/assets/e44f2551-3c10-47ce-88de-7efc70d636ee" />
 
-<p>- ⚠️ Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. ⚠️ </p>
-<p>- This is another area where people stuggled during the lab. So double check before moving on. </p>
-<p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
+<p>
+ - In "wwwroot", rename "upload" to "osTicket".
+</p>
+<p>
+ - Next, we'll need to reload IIS again. From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click "Stop". Wait a bit. Right-click osTicket-vm and click "Start". 
+</p>
 <br/>
 
 <table>
@@ -504,12 +529,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Since we're already in IIS. Lets check our work and attempt to load the osTicket site..</p>
-<p>- In IIS on the left side of the screen, under Connections, go in this order:</p> 
- <p> osTicket-vm -> Sites -> Default Web Site -> osticket. (See Figure 35) /p>
-<p>- Then on the left side, under Browse Folder, click Browse *:80 (http).</p>
-<p>- Well looky there! We did it! Trust me when I say this is a GREAT sign. This means that we've done evrything correct up to this point.🎉 </p>
-<p>- Alright, settle down because there's still work to be done. We need to grab some missing extensions before we can party. See Figure 36</p>
+<p>
+ - Lets check our work and try to load the osTicket site.
+</p>
+<p>
+ - In IIS on the left under Connections: osTicket-vm -> Sites -> Default Web Site -> osticket.
+</p> 
+<p>
+ - Then under Browse Folder, click Browse *:80 (http).
+</p>
+<p>
+ - We did it! </p>
+<p>
+ - We still need to grab some missing extensions.
+</p>
 <br/>
 
 <table>
@@ -522,8 +555,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- In IIS, go Sites -> Default Web Site -> osTicket. Double-click PHP. </p>
-<p>- Under PHP Extensions, click "Enable or disable an extension". This opens PHP Extensions and will allow us to enable the ones we're missing.</p>
+<p>
+ - In IIS: Sites -> Default Web Site -> osTicket. Double-click PHP. 
+</p>
+<p>
+ - Under PHP Extensions, click "Enable or disable an extension". This will PHP Extensions and let us to enable the ones we're missing.
+</p>
 <br/>
 
 <table>
@@ -536,8 +573,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Scroll through and locate "php_imap.dll". Select and Enable. </p>
-<p>- Scroll some more and locate "php_intl.dll". Select and Enable.</p>
+<p>
+ - Scroll and locate "php_imap.dll". Select and Enable. 
+</p>
+<p>
+ - Scroll more. Locate "php_intl.dll". Select and Enable.
+</p>
 <br/>
 
 <table>
@@ -550,8 +591,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Last but not least, scroll through and locate "php_opcache.dll". Select and Enable. </p>
-<p>- Now, you can simply refresh the browser and observe the new draft picks to the extension team. Fly Eagles Fly! 🦅 🏆 </p>
+<p>
+ - Finally, scroll and locate "php_opcache.dll". Select and Enable.
+</p>
+<p>
+ - Refresh the browser and observe the new extensions.
+</p>
 <br/>
 
 <table>
@@ -564,9 +609,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Next, we need to rename a config file and assign some permissions. </p>
-<p>- Use File Explore and navigate this path: Windows(C:) -> inepub -> wwwroot -> osTicket. Open "include".</p>
-<p>- Within "include", locate the "ost-sampleconfig.php" file. This is the file we need to rename.</p>
+<p>
+ - Next, we need to rename a config file and assign some permissions.
+</p>
+<p>
+ - In File Explore: Windows(C:) -> inepub -> wwwroot -> osTicket. Open "include".
+</p>
+<p>
+ - In "include", locate the "ost-sampleconfig.php" file. 
+</p>
 <br/>
 
 <table>
@@ -579,8 +630,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- ⚠️ Rename "ost-sampleconfig.php" to "ost-config.php". ⚠️ Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
-<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<p>
+ - Rename "ost-sampleconfig.php" to "ost-config.php". 
+</p>
+<p>
+ - Now that the config file is renamed correctly, right-click "ost-config.php" and click "Properties".
+</p>
 <br/>
 
 <table>
@@ -593,9 +648,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- We need to assign permissions for osTicket to make changes to this file on the backend.</p>
-<p>- In Properties, select the Security tab and click Advanced. </p>
-<p>- Click Disable inheritance.</p>
+<p>
+ - We need to assign permissions for osTicket to make changes to this file on the backend.
+</p>
+<p>
+ - In Properties, select the Security tab and click "Advanced". 
+</p>
+<p>
+ - Click "Disable inheritance".
+</p>
 <br/>
 
 <table>
@@ -608,8 +669,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Select "Remove all inherited permissons from this object". </p>
-<p>- Since all the permissions are gone now, click Add.</p>
+<p>
+ - Select "Remove all inherited permissons from this object". 
+</p>
+<p>
+ - All the permissions are gone now, click "Add".
+</p>
 <br/>
 
 <table>
@@ -622,9 +687,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Click "Select a principal" and then in the box, type "everyone". This would not a good idea in the real world but its okay for this project. </p>
-<p>- Hit "Check Names" and click OK.</p>
-<p>- Next, check "Full control" and click OK.</p>
+<p>
+ - Click "Select a principal". In the box, type "everyone". This is not a good idea in the real world but okay forthe purpose of this project. 
+</p>
+<p>
+ - Hit "Check Names". Click "OK".
+</p>
+<p>- Next, check "Full control". Click "OK".
+</p>
 <br/>
 
 <table>
@@ -637,8 +707,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Review the permission changes we made, confirm your screen looks like Figure 53, hit Apply, and click OK.</p>
-<p>- We can see our changes here as well. Click OK.</p>
+<p>
+ - Review the permission changes we made. Hit "Apply", and click "OK".
+</p>
+<p>
+ - We can see our changes here too. Click "OK".
+</p>
 <br/>
 
 <table>
@@ -651,12 +725,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Go back to the osTicket webpage in the browser and click Continue at the bottom of the page. We will finish setting up osTicket here.</p>
-<p>- This is your Help Desk to name how you see fit. So do you boo.</p>
-<p>- The Default email doesn't have to be a real email. Once you got this filled out, scroll down.</p>
-<p>- Put yourself as the Admin User. This email doesn'matter either but it does need to be different from the one above.</p>
-<p>- Username: "adminuser" Password: "Password1". Keep it simple and note this information for later. </p>
-<p>- Before we fill out the Database Settings, we will need to install one last thing to get this information. </p>
+<p>
+ - Go back to the osTicket webpage in the browser. Click Continue at the bottom of the page. We will finish setting up osTicket here.
+</p>
+<p>
+ - Name your Help Desk how you see fit.</p>
+<p>
+ - The Default email doesn't need to be a real email. Once it is filled out, scroll down.
+</p>
+<p>
+ - Put yourself as the Admin User. This email doesn'matter either but it has to be different from the one above.
+</p>
+<p>
+ - Username: "adminuser" Password: "Password1". Let's keep it simple and make a note this information for later. 
+</p>
+<p>
+ - Before we fill out the Database Settings, we need to install one last thing/. 
+</p>
 <br/>
 
 <table>
@@ -669,11 +754,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- We'll make one final visit to the "osTicket-Installation-Files" on our Desktop and install HeidiSQL.</p>
-<p>- HeidiSQL is an application that allows us to make a connection to our database, configure it, and use our Help Desk super powers for the greater good.</p>
-<p>- Find the "osTicket-Installation-Files" folder that's buried under the hundreds on windows we've opened so far. 🤣</p>
-<p>- Select and download "HeidiSQL_12.3.0.6589_Setup". Agree, click Next, and Install. Make sure "Launch HeidiSQL" is checked, click Finish and Skip.</p>
-<p>- Create a new Session Manager. Click +New. Under Settings, User is root and password is ROOT (VERY IMPORTANT). Click Open.</p>
+<p>
+ - In "osTicket-Installation-Files" on our Desktop, install HeidiSQL.</p>
+<p>
+ - HeidiSQL is an application that lets us to make a connection to our database, and configure it.
+</p>
+<p>
+ - Find the "osTicket-Installation-Files" folder.
+</p>
+<p>
+ - Select and download "HeidiSQL_12.3.0.6589_Setup". Agree, click "Next", and "Install". Make sure "Launch HeidiSQL" is checked, click "Finish and Skip".
+</p>
+<p>
+ - Create a new Session Manager. Click +New. Under Settings, User is root and password is root like we had set up earlier. Click "Open".
+</p>
 <br/>
 
 <table>
@@ -686,8 +780,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Right-click the dolphin Unamed, select Create new, and click Database.</p>
-<p>- ⚠️ Name the database "osTicket".⚠️ This is another IMPORTANT step towards our success. Click OK. See Figure 60</p>
+<p>
+ - Right-click the dolphin Unamed, select "Create new", and click "Database".
+</p>
+<p>
+ - Name the database "osTicket". Click "OK".
+</p>
 <br/>
 
 <table>
@@ -700,11 +798,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Now back to the browser to complete the Database Settings</p>
-<p>- MySQL Database: osTicket - MySQL Username: root - MySQL Password: ROOT</p>
-<p>- Click Install Now.</p>
-<p>- CONGRATULATIONS! We did it! osTicket has been successfully installed. </p>
-<p>- Take note of the URLs on Figure 62. We'll break these down in the next project, but check out the Staff Control Panel. </p>
+<p>
+ - Go back to the browser.
+</p>
+<p>
+ - MySQL Database: osTicket - MySQL Username: root - MySQL Password: root
+</p>
+<p>
+ - Click "Install Now".
+</p>
+<p>
+ - osTicket has been successfully installed. 
+</p>
+<p>
+ - Take note of the URLs. We'll break these down in the next project. Check out the Staff Control Panel. 
+</p>
 <br/>
 
 <img width="600" alt="OT66" src="https://github.com/user-attachments/assets/8ab1af80-d866-45ee-9c74-979b0c408f0d" />
