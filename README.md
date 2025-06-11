@@ -156,18 +156,72 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT12" src="https://github.com/user-attachments/assets/ae666c73-a7ef-48c5-9518-47c8a22e5c1c" />
+      <img width="686" alt="Screenshot 2025-06-11 at 1 03 14 AM" src="https://github.com/user-attachments/assets/c99b1ea6-04e5-4a18-a9a9-9f81c4f8b5dc" />
     </td>
     <td>
-      <img width="1000" alt="OT13" src="https://github.com/user-attachments/assets/623964cf-0bb2-4ff1-8c57-d669e676135c" />
+      <img width="1126" alt="Screenshot 2025-06-11 at 1 03 50 AM" src="https://github.com/user-attachments/assets/fffbf7f9-7032-42a4-8bbe-2cbc20efcffa" />
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>
+      <img width="1126" alt="Screenshot 2025-06-11 at 1 04 38 AM" src="https://github.com/user-attachments/assets/7a9cb069-cc02-44b0-8277-1082588b1847" />
+    </td>
+    <td>
+      <img width="1123" alt="Screenshot 2025-06-11 at 1 04 47 AM" src="https://github.com/user-attachments/assets/810e45e3-3a20-436a-8133-c944344d057e" />
     </td>
   </tr>
 </table>
 <p>
  - Next we want to create a directory on the C drive called PHP. 
 </p>
-<p>- Navigate to Windows(C:) via File Explorer and create a new folder named "PHP". </p>
-<p>- Back to the osTicket Installation Files, right-click the (php-7.3.8-nts-Win32-VC15-x86) file and select Extrat All...</p>
+<p>
+ - Open up File Explorer, then vavigate to Windows(C:) and create a new folder named "PHP". 
+</p>
+<br/>
+
+<p>
+ - Next we want to extract the PHP files from the osTicket-Installation-Files into the newly created PHP folder in the C drive.
+</p>
+
+<p>
+ <img width="1704" alt="Screenshot 2025-06-11 at 1 10 31 AM" src="https://github.com/user-attachments/assets/2569bd9d-a1e5-4da3-a7a0-ff531a1eb271" />
+</p>
+<p>
+ - Open up the osTicket-Installation-Files
+</p>
+
+<table>
+  <tr>
+    <td>
+      <img width="789" alt="Screenshot 2025-06-11 at 1 10 55 AM" src="https://github.com/user-attachments/assets/cc6c25f6-8c2a-4d02-b32c-f32f687f441b" />
+    </td>
+    <td>
+     <img width="616" alt="Screenshot 2025-06-11 at 1 11 15 AM" src="https://github.com/user-attachments/assets/94fd768e-ebca-488f-bc41-cd02522e96e3" />
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>
+      <img width="842" alt="Screenshot 2025-06-11 at 1 11 40 AM" src="https://github.com/user-attachments/assets/7395c0d2-e5ea-4756-ba17-5730c8cd782e" />
+    </td>
+    <td>
+    <img width="617" alt="Screenshot 2025-06-11 at 1 12 21 AM" src="https://github.com/user-attachments/assets/9185848b-83e4-435b-b894-5186c58ec14b" />
+    </td>
+  </tr>
+</table>
+<p>
+ - Right click the php zip file(php-7.3.8-nts-Win32-VC15-x86) then click "Extract All..."
+</p>
+<p>
+ - A window will pop up for you to select a destination to extract the files. Click "Browse...". Then click  Windows (C:) on the left and then click the newly created PHP folder. Click "Select Folder". 
+</p>
+<p>
+ - You'll be taken back to the "Select a Destination and Extract Files" window but you will see C:\PHP under "Files will be extracted to this folder". Click "Extract".
+</p>
+<p>- Back to the osTicket Installation Files, right-click the (php-7.3.8-nts-Win32-VC15-x86) file and select Extract All...</p>
 <br/>
 
 <table>
