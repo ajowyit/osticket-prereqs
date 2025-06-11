@@ -116,19 +116,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="OT10" src="https://github.com/user-attachments/assets/1f2a869f-505a-4577-968b-4ad9029d467f" />
-    </td>
-    <td>
-      <img width="1000" alt="OT11" src="https://github.com/user-attachments/assets/067ae469-328b-43ac-baf6-ef86e4bfcd2c" />
-    </td>
-  </tr>
-</table>
-<p>- Now that we've got the web server going, its time to start installing evrything we need for osTicket. We'll start with PHP Manager for IIS. PHP is a backend web server language and osTicket basically runs on PHP. </p>
-<p>- Open the osTicket-Installation-Files and install PHP Manager for IIS. (PHPManagerForIIS_V1.5.0) </p>
-<p>- Let the Installer do it's thing. Agree, click Next, and Yes on eveything.</p>
+<p>
+<img width="1126" alt="Screenshot 2025-06-10 at 8 54 19 PM" src="https://github.com/user-attachments/assets/1c4e58a3-1a65-49ea-8f00-c7fb79ab6990" />
+
+<img width="498" alt="Screenshot 2025-06-10 at 8 55 03 PM" src="https://github.com/user-attachments/assets/c2623165-db08-42d6-93a8-a2c9016e1d9c" />
+
+<img width="497" alt="Screenshot 2025-06-10 at 8 55 10 PM" src="https://github.com/user-attachments/assets/d6f36fe3-2f51-45d8-b86f-b7c6b5d13d77" />
+
+
+ <img width="500" alt="Screenshot 2025-06-10 at 8 55 17 PM" src="https://github.com/user-attachments/assets/132cb3a5-9550-440e-8dbc-6d2937161c8d" />
+
+
+</p>
+<p>
+ - Now, its time to start installing evrything we need for osTicket. We'll start with PHP Manager for IIS. PHP is a backend web server language. OsTicket basically runs on PHP. 
+</p>
+<p>
+ - Open up osTicket installation files folder from the desktop and install PHP Manager for IIS. Double click PHPManagerForIIS_V1.5.0. 
+</p>
+<p>
+ - When the installer window pops up, click "Next", select "I Agree", click "Next", and click "Close" when finished
+</p>
+<br/>
+
+
 <p>- Next, install the Rewrite Module. (rewrite_amd64_en-US.msi) Agree and click Next to everything.</p>
 <br/>
 
