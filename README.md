@@ -221,52 +221,132 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
  - You'll be taken back to the "Select a Destination and Extract Files" window but you will see C:\PHP under "Files will be extracted to this folder". Click "Extract".
 </p>
-<p>- Back to the osTicket Installation Files, right-click the (php-7.3.8-nts-Win32-VC15-x86) file and select Extract All...</p>
+<p>
+ <img width="856" alt="Screenshot 2025-06-11 at 1 12 59 AM" src="https://github.com/user-attachments/assets/14134fd2-6667-4416-a5d8-1467cd873af0" />
+</p>
+<p>
+ - Now all of the files we just installed for osTicket should be in your PHP folder inside the Windows (C:) Drive.
+</p>
+<br/>
+
+<p>
+ <img width="791" alt="Screenshot 2025-06-11 at 1 37 47 AM" src="https://github.com/user-attachments/assets/4d4ac426-1a02-4d01-a68d-652ee436a281" />
+</p>
+<table>
+  <tr>
+    <td>
+     <img width="482" alt="Screenshot 2025-06-11 at 1 38 18 AM" src="https://github.com/user-attachments/assets/4b880dd0-4f1a-4f1b-bcec-69c8bb9c29de" />
+    </td>
+    <td>
+     <img width="482" alt="Screenshot 2025-06-11 at 1 38 58 AM" src="https://github.com/user-attachments/assets/326d79ba-310a-4fc1-bb34-1dc35c277ed1" />
+    </td>
+  </tr>
+</table>
+<p>
+ - Now, from osTicket-Installation-Files, we want to install the VC Redistributable file (VC_redist.86). Double click it.
+</p>
+<p>
+ - Next, check the box to agree to the license terms and condidions and click "Install". Once done installing close the window.
+</p>
+<br/>
+<table>
+  <tr>
+    <td>
+     <img width="794" alt="Screenshot 2025-06-11 at 1 44 21 AM" src="https://github.com/user-attachments/assets/566cbeec-724c-4e57-b26e-77b8f4b53fa5" />
+    </td>
+    <td>
+     <img width="498" alt="Screenshot 2025-06-11 at 1 44 43 AM" src="https://github.com/user-attachments/assets/9593e2be-e35b-4460-8cf0-816ebb737298" />
+    </td>
+  </tr>
+</table>
+<p>
+ - Next, we're going to install MySQL 5.5.62. MySQL is a database that osTicket is going to use to store all of our data. The data will be all the user accounts, ticketing information, and everything we do in osTicket. This will all be stored in the database. 
+</p>
+<p>
+ - From osTicket-Installation-Files, Double click mysql-5.5.62-win32. The My SQL Server 5.5 Setup Wizard window should pop up. Click "Next".</p>
+<table>
+  <tr>
+    <td>
+     <img width="497" alt="Screenshot 2025-06-11 at 1 44 49 AM" src="https://github.com/user-attachments/assets/70904ca7-f12e-42b6-86d9-b5cef3352e6d" />
+    </td>
+    <td>
+     <img width="500" alt="Screenshot 2025-06-11 at 1 47 45 AM" src="https://github.com/user-attachments/assets/b4a013f4-ec28-4b72-9ef9-4dd516f6b1d1" />
+    </td>
+  </tr>
+</table>
+<p>
+ - Continue with the installation process. Check the box next to "I accept the terms in the License Agreement." and click "Next"
+</p>
+<p>
+ - When it says "Choose Setup Type", click "Typical" and then click "Next".
+</p>
+<table>
+  <tr>
+    <td>
+     <img width="498" alt="Screenshot 2025-06-11 at 1 48 00 AM" src="https://github.com/user-attachments/assets/dc337959-42d7-4474-9e81-eea5895600fa" />
+    </td>
+    <td>
+     <img width="497" alt="Screenshot 2025-06-11 at 1 48 37 AM" src="https://github.com/user-attachments/assets/48d86881-de3c-4374-b9a9-ec1529112795" />
+    </td>
+  </tr>
+</table>
+<p>
+ - When it says Ready to Install, click "Install".
+</p>
+<p>
+ - Make sure there is a check next to "Launch the MySQL Instance Configuration Wizard". We are going to start the configuration wizard now. Click "Finish". The Configuration Wizard window will pop up.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT14" src="https://github.com/user-attachments/assets/0efbd85d-8f29-4e54-8ae5-f433053f926a" />
+      <img width="499" alt="Screenshot 2025-06-11 at 1 49 17 AM" src="https://github.com/user-attachments/assets/9f290ad7-7521-40c7-8dd6-df6cf1efcc25" />
     </td>
     <td>
-      <img width="1000" alt="OT15" src="https://github.com/user-attachments/assets/1f354857-d088-408d-a75b-b67e995db66b" />
+      <img width="500" alt="Screenshot 2025-06-11 at 1 49 39 AM" src="https://github.com/user-attachments/assets/50992c2f-1613-4682-adee-97bdcd308ee8" />
     </td>
   </tr>
 </table>
-<p>- Instead of just extracting right away, click Browse, navigate to Windows(C:), and select the new PHP folder we just created.</p>
-<p>- Confirm the Destination and click Extract. After its finished, you can open the PHP folder and see all the PHP files we just installed for osTicket.</p>
-<br/>
 
+</p>
+- Click "Next" when configuration wizard window pops up.
+</p>
+<p>
+ - Select Standard Configuration and then click "Next >".
+</p>
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT16" src="https://github.com/user-attachments/assets/9231bade-a226-4d7d-b1cf-fe8c3b3eaea9" />
+      <img width="500" alt="Screenshot 2025-06-11 at 1 50 13 AM" src="https://github.com/user-attachments/assets/c25c10da-33cf-45ae-8c84-af0037bd374b" />
     </td>
     <td>
-      <img width="1000" alt="OT17" src="https://github.com/user-attachments/assets/47a41d2f-ec6e-4d42-a806-0075137c61e0" />
+     <img width="502" alt="Screenshot 2025-06-11 at 1 52 04 AM" src="https://github.com/user-attachments/assets/218df7b1-d016-4940-a54c-60fee7ff46b8" />
     </td>
   </tr>
 </table>
-<p>- Now, back to the osTicket Installation Files and install a couple more files.</p>
-<p>- From osTicket-Installation-Files, install the VC Redistributable file (VC_redist.86). Click Yes and let it do it's thing.</p>
-<p>- Next, we'll install MySQL 5.5.62. MySQL is a database that osTicket is going to use to store all of our data. The data will be all the user accounts, ticketing information, and everything we do in osTicket. This will all be stored in the database on the backend. </p>
-<p>- Download (mysql-5.5.62-win32)</p>
-<br/>
-
+<p>
+ - Click "Next".
+</p>
+<p>
+ - For the root password. Use the word "root". This is bad to do in real life but we are making it simple to ensure we don't mess up, as this is very important. Then click "Next >".n
+</p>
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT18" src="https://github.com/user-attachments/assets/b0e4f2ed-328b-4db6-9ee2-ad2c1f02b72b" />
+      <img width="503" alt="Screenshot 2025-06-11 at 1 53 21 AM" src="https://github.com/user-attachments/assets/d3806cfe-b9e0-4894-beca-812830751f88" />
     </td>
     <td>
-      <img width="1000" alt="OT19" src="https://github.com/user-attachments/assets/8cd4289a-ab6e-4e84-893b-0acb823f726e" />
+     <img width="502" alt="Screenshot 2025-06-11 at 1 54 06 AM" src="https://github.com/user-attachments/assets/ecda9d50-14f5-4d62-970d-6611ff7db28b" />
     </td>
   </tr>
 </table>
-<p>- Run the installer for MySQL. Choose "Typical" for Setup Type and click Next. See Figure 17 </p>
-<p>- Once Install is complete, check the box next to "Launch the MySQL Instance Configuration Wizard", and click Finish.</p>
-</p>- Click Next to start the configuration wizard.</p>
+<p>
+ - Click "Execute". Next, click "Finish". This concludes the installation of the SQL database.
+</p>
+
+
+
 <br/>
 
 <table>
