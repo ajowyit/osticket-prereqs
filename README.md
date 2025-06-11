@@ -348,71 +348,92 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <br/>
+<table>
+  <tr>
+    <td>
+      <img width="783" alt="Screenshot 2025-06-11 at 2 16 20 AM" src="https://github.com/user-attachments/assets/c29dac65-6539-427a-96ae-c8e0eb1a5aaa" />
+    </td>
+    <td>
+     <img width="1269" alt="Screenshot 2025-06-11 at 2 17 18 AM" src="https://github.com/user-attachments/assets/a5977cef-22f4-48aa-a3fb-60321ad142d5" />
+    </td>
+  </tr>
+</table>
+
+<p>
+ - Next, we want to IIS (Internet Information Services as an admin.
+</p>
+
+<br/>
+<table>
+  <tr>
+    <td>
+      <img width="1269" alt="Screenshot 2025-06-11 at 2 19 38 AM" src="https://github.com/user-attachments/assets/8a4a6de2-c947-44db-ae7f-c55d09ad2f73" />
+    </td>
+    <td>
+     <img width="1269" alt="Screenshot 2025-06-11 at 2 19 52 AM" src="https://github.com/user-attachments/assets/469ec360-905e-4062-9ab0-2e7250e7e3eb" />
+    </td>
+  </tr>
+</table>
+
+<p>
+ - Next, we will register PHP from within IIS. This means that we are basically making the webserver aware of PHP's existance on the computer. We are telling it where it is. 
+</p>
+<p>
+ - Click PHP Manager. Once on the PHP Manager page, click "Register new PHP version".
+</p>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT20" src="https://github.com/user-attachments/assets/67164ce9-a990-4cf0-8c9e-4fbf926dcce6" />
+     <img width="510" alt="Screenshot 2025-06-11 at 2 20 50 AM" src="https://github.com/user-attachments/assets/5e82199b-ea84-4710-a187-5fec62e024a3" />
     </td>
     <td>
-      <img width="1000" alt="OT21" src="https://github.com/user-attachments/assets/55f3d36b-e17c-41dc-8fbc-e2d9f41d9f23" />
+      <img width="843" alt="Screenshot 2025-06-11 at 2 22 20 AM" src="https://github.com/user-attachments/assets/937ebd5f-1ad5-4e41-901c-94698526bda3" />
     </td>
   </tr>
 </table>
-<p>- Select "Standard Configuration", and click Next. See Figure 19</p>
-<p>- We'll leave the next options alone and hit Next as shown in Figure 20.</p>
-<br/>
-
-<img width="600" alt="OT22" src="https://github.com/user-attachments/assets/ee7d67a1-c2d8-4be9-af92-45a13a4f972c" />
-
-<p>- Okay, we've done a lot of jumping from folder to folder and changing windows to this point. Stand up, stretch, get something to drink, and maybe a snack so we can get locked in. This next step is beyond SUPER IMPORTANT! Absolutely DO NOT MESS THIS UP! (No Pressure) 😏</p>
-<p>- ⚠️ Just type the word ROOT in both boxes. Yes, ROOT in all caps. ⚠️ </p>
-<p>- Later on, the username will be root but the password is ROOT. This would be really bad in the real world but we're keeping simple for this project. A ton of people struggled with this part in the lab. The huge issue is we won't know its wrong until the end when osTicket fails to launch. </p>
-<p>- Click Next, Execute on the next screen, and then Finish.</p>
+<p>
+ - A window to register new PHP version will pop up. Click the button with 3 dots "...".
+</p>
+<p>
+ - Click Windows(C:) on the left, then click the PHP folder then select php-cgi. Click "Open".
+</p>
+<table>
+  <tr>
+    <td>
+     <img width="508" alt="Screenshot 2025-06-11 at 2 23 43 AM" src="https://github.com/user-attachments/assets/a98d58d5-7fae-4ff8-a61a-3dc91af95c18" />
+    </td>
+    <td>
+    <img width="1269" alt="Screenshot 2025-06-11 at 2 24 12 AM" src="https://github.com/user-attachments/assets/63cbcfb4-3e65-4237-bbe1-1a180f38bb84" />
+    </td>
+  </tr>
+</table>
+<p>
+ - Click "OK".
+</p>
+<p>
+ - Now Yyu should see the file under PHP Executable.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT23" src="https://github.com/user-attachments/assets/9713df38-bb52-4b7a-b5ec-1bf21f3302ec" />
+      <img width="1270" alt="Screenshot 2025-06-11 at 2 25 10 AM" src="https://github.com/user-attachments/assets/35df33b6-a396-47d8-ba8e-89d3496a81b0" />
     </td>
     <td>
-      <img width="1000" alt="OT24" src="https://github.com/user-attachments/assets/8cfd5c58-0513-4465-862b-ca9078059580" />
+      <img width="1270" alt="Screenshot 2025-06-11 at 2 25 49 AM" src="https://github.com/user-attachments/assets/942dfc56-519e-45cf-aa94-e99934f7e97f" />
     </td>
   </tr>
 </table>
-<p>- Now that the scary part is over, we are going to Register PHP from within IIS. Open IIS as an Admin from the Start Menu.</p>
-<p>- In IIS, open PHP Manager by double-clicking the icon.</p>
-<p>- Click "Register new PHP version", then click the three dots, and browse to the C drive. Windows(C:). </p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="OT25" src="https://github.com/user-attachments/assets/918df4c8-2c52-4f02-a6c3-9cfa40046631" />
-    </td>
-    <td>
-      <img width="1000" alt="OT26" src="https://github.com/user-attachments/assets/8777aa50-74e6-4c60-b5f7-f9adca31fb95" />
-    </td>
-  </tr>
-</table>
-<p>- Select PHP and click Open.</p>
-<p>- In PHP, select php-cgi, click Open, and then OK.</p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="OT27" src="https://github.com/user-attachments/assets/048674f6-3ed7-42cc-b11b-2610149f683f" />
-    </td>
-    <td>
-      <img width="1000" alt="OT37" src="https://github.com/user-attachments/assets/8a0ef05c-1589-4359-8ac2-a62ab43ad511" />
-    </td>
-  </tr>
-</table>
-<p>- We need to reload IIS for the PHP registration to take effect.</p>
-<p>- Right-click osTicket-vm in the top-left of IIS and select Stop. You should see a green animation slide across the top bar. </p>
-<p>- Give it a couple seconds. Then, right-click osTicket-vm again and select Start. (You can use the Action buttons on the right side of IIS as well).</p>
+<p>
+ - Now we need to reload IIS for the PHP registration to take effect.</p>
+<p>
+ - Right-click osTicket-vm in the top-left of IIS and select "Stop". You should see a green animation slide across the top bar. 
+</p>
+<p>
+ - Give it a few seconds. Then, right-click osTicket-vm again and select "Start". (You can also use the Action buttons on the right side of IIS ).
+</p>
 <br/>
 
 <table>
