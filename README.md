@@ -27,35 +27,48 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>🧰 Installation Steps</h2>
 
-<img width="750" alt="OT2" src="https://github.com/user-attachments/assets/1bd02ffe-5a62-42a9-a1fc-f3a7d09a3de4" />
+<p>
+ <img width="1710" alt="Screenshot 2025-06-09 at 10 54 10 PM" src="https://github.com/user-attachments/assets/840edc0f-da70-4a43-90db-b91669801e53" />
+ <img width="1710" alt="Screenshot 2025-06-09 at 10 54 25 PM" src="https://github.com/user-attachments/assets/0bd034a9-8647-446a-bec9-77874c595c6c" />
+<img width="1710" alt="Screenshot 2025-06-09 at 10 54 45 PM" src="https://github.com/user-attachments/assets/193b6137-5d54-4fce-b303-5e1c3eb7b4a3" />
+</p>
+<p>
+ - In Azure, create a virtual machine named osTicket-vm. Refer back to this previous project if needed:[Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines). Use the same configurations.
+</p>
+<p>
+ - Log into it.
+</p>
+<p>
+ - Open a browser like Microsoft Edge and paste this link to download the .zip file for the osTicket installation files into the browser and press Enter: [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) 
+</p>
+<p>
+ Click "Download anyway" 
+</p>
 
-
-- In Azure, create a virtual machine named osTicket-vm. Refer back to this previous project if needed:[Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines). Use the same configurations.
-- Log into it.
-- Open a browser like Microsoft Edge and paste this link to download the .zip file for osTicket: [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) 
-
-<p>- Log in to the osTicket-vm, copy the osTicket Installation Files link above, and paste it into the browser. This will take you to the zip file containing what we need to install osTicket to the VM.</p>
-<p>- Yes, it is a large file but click Download anyway.</p>
-<p>- Don't "Open file" instead click the folder icon to open the file where it is. Downloads.</p>
  <br/>
-
-<img width="800" alt="OT3" src="https://github.com/user-attachments/assets/41493ab6-9f85-4142-9124-c2d8f108f22f" />
-
-<p>- From Downloads, drag the zip file to the deskstop.</p>
+<p>
+<img width="1380" alt="Screenshot 2025-06-09 at 10 57 22 PM" src="https://github.com/user-attachments/assets/ec55f6ad-ad1d-4503-ac84-084d2b4b3ecb" />
+</p>
+<p>
+ - From Downloads, drag the zip file on to the deskstop.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT4" src="https://github.com/user-attachments/assets/146f985b-d0b3-481f-aff2-eb1d85845cdb" />
+    <img width="322" alt="Screenshot 2025-06-09 at 10 57 38 PM" src="https://github.com/user-attachments/assets/c3085ec7-5ccb-4ce7-a491-bdfc618213d0" />
     </td>
     <td>
-      <img width="1000" alt=<"OT5" src="https://github.com/user-attachments/assets/8315b55b-6b12-4cb3-8c18-25d014fc821d" />
+    <img width="616" alt="Screenshot 2025-06-09 at 10 57 46 PM" src="https://github.com/user-attachments/assets/128938d5-1368-489a-bf93-2ea39e58613f" />
     </td>
   </tr>
 </table>
-<p>- Right-click the folder and select Extract All...</p>
-<p>- Confirm the correct destination (Desktop) and click Extract. The folder should be called "osTicket-Installation-Files"</p>
+<p>
+ - Right-click the folder. Click "Extract All..."
+</p>
+<p>
+ - Confirm the correct destination (C:\Users\{username}\Desktop\osTicket-Installation-Files). Click Extract. Make sure the folder is called "osTicket-Installation-Files"</p>
 <p>- Once the folder is finished extracting, you may have to minimize a window to see it. It should appear by the Browser icon on the Desktop.</p>
 <p>- We will use the files in this folder to install osTicket. I moved the install folder to the top right of my screen (for easy locate) and moved the zip file to a bottom corner to ignore for the rest of the lab. This was to prevent mixing them up because its about to get saucy. 😏 (You can move the zip file to the recycle bin. I didn't realize that til later in the lab.)</p>
 <br/>
