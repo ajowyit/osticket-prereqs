@@ -427,7 +427,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </tr>
 </table>
 <p>
- - Now we need to reload IIS for the PHP registration to take effect.</p>
+ - Now we need to reload IIS for the PHP registration to take effect by stopping and restarting the web server.</p>
 <p>
  - Right-click osTicket-vm in the top-left of IIS and select "Stop". You should see a green animation slide across the top bar. 
 </p>
@@ -439,28 +439,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT28" src="https://github.com/user-attachments/assets/fb5dfacd-98f9-4cce-bbe9-106cc942c442" />
+     <img width="856" alt="Screenshot 2025-06-11 at 5 53 39 PM" src="https://github.com/user-attachments/assets/967ecb46-50da-4bdf-a3b5-b12473399b17" />
     </td>
     <td>
-      <img width="1000" alt="OT29" src="https://github.com/user-attachments/assets/c377e374-99c6-4d8c-99a0-ba212b3d8fba" />
+      <img width="615" alt="Screenshot 2025-06-11 at 5 54 24 PM" src="https://github.com/user-attachments/assets/3506a303-55da-44ae-925f-5eb93920618e" />
     </td>
   </tr>
 </table>
+
 <p>
  - Go back to the osTicket Installation Files folder on the Desktop. We will unzip (osTicket-v1.15.8.zip).
 </p>
 <p>
- - Right-click osTicket-v1.15.8.zip. Select "Extract..."
+ - Right-click osTicket-v1.15.8.zip. Select "Extract All..."
 </p>
 <p>
- - Extract the files into the osTicket-Installation-Files folder. You'll see the new folder at the top. 
+ - Extract the files into the osTicket-Installation-Files folder. 
 </p>
 <br/>
 
-<img width="600" alt="OT30" src="https://github.com/user-attachments/assets/dbd3243f-71e4-4150-b6f0-fa3eeb10bdbf" />
+<p>
+ <img width="1627" alt="Screenshot 2025-06-11 at 5 58 11 PM" src="https://github.com/user-attachments/assets/339f85ff-f688-4e71-ab67-dba47ff11817" />
+</p>
 
 <p>
- - Once the files are done extracting, double-click the new osTicket-v1.15.8 folder.
+ - Once the files are done extracting, open new osTicket-v1.15.8 folder.
 </p>
 <p>
  - There should be two folders inside: Scripts and Upload. 
@@ -473,13 +476,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT31" src="https://github.com/user-attachments/assets/d1811c77-75f4-4f00-b2d8-b54b95a42732" />
+     <img width="857" alt="Screenshot 2025-06-11 at 6 01 04 PM" src="https://github.com/user-attachments/assets/6dbd4b76-64a4-4c40-b9d1-a805baa77c8c" />
     </td>
     <td>
-      <img width="1000" alt="OT32" src="https://github.com/user-attachments/assets/6c8bb4ae-a65f-45ba-b711-5e0fd7e886b8" />
+     <img width="855" alt="Screenshot 2025-06-11 at 6 01 28 PM" src="https://github.com/user-attachments/assets/1b008310-3916-41d6-bd96-2461cf27995c" />
     </td>
   </tr>
 </table>
+<p>
+ <img width="858" alt="Screenshot 2025-06-11 at 6 01 49 PM" src="https://github.com/user-attachments/assets/d7d4092e-2669-4865-b612-0636b8e89e45" />
+</p>
 <p>
  - In File Explorer, navigate to the C drive. (Windows(C:).
 </p>
@@ -491,10 +497,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT33" src="https://github.com/user-attachments/assets/d4928144-2b92-4380-883a-68ca3e5edcc7" />
+      <img width="1625" alt="Screenshot 2025-06-11 at 6 03 27 PM" src="https://github.com/user-attachments/assets/db0d6ffd-5eed-4b98-aec3-632663b51e86" />
     </td>
     <td>
-      <img width="1000" alt="OT34" src="https://github.com/user-attachments/assets/6d2ea203-60ba-4fb5-9082-1734c954934e" />
+     <img width="1626" alt="Screenshot 2025-06-11 at 6 04 04 PM" src="https://github.com/user-attachments/assets/4ca2e95a-b3f1-488d-ae58-60a36cf9fd19" />
     </td>
   </tr>
 </table>
@@ -502,18 +508,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Drag the "upload" folder from the "osTicket-v1.15.8" folder and drop it into the "wwwroot" folder. 
 </p>
 <p>
- - DO NOT  copy and paste.  
+ - DO NOT copy and paste.  
 </p>
 <p>
  - Confirm that the "upload" folder  moved from "osTicket-v1.15.8" and into "wwwroot". 
 </p>
 <br/>
 
-<img width="600" alt="OT35" src="https://github.com/user-attachments/assets/e44f2551-3c10-47ce-88de-7efc70d636ee" />
-
+<table>
+  <tr>
+    <td>
+      <img width="858" alt="Screenshot 2025-06-11 at 6 05 06 PM" src="https://github.com/user-attachments/assets/95e0dab2-e15e-4143-ab36-d72c516da2a9" />
+    </td>
+    <td>
+    <img width="858" alt="Screenshot 2025-06-11 at 6 05 30 PM" src="https://github.com/user-attachments/assets/fae11c3d-f0ca-451a-a390-02cce63c2007" />
+    </td>
+  </tr>
+</table>
 <p>
  - In "wwwroot", rename "upload" to "osTicket".
 </p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1269" alt="Screenshot 2025-06-11 at 6 11 12 PM" src="https://github.com/user-attachments/assets/045312ee-d18d-4f3c-80bf-f00be0a7d45e" />
+    </td>
+    <td>
+    <img width="1268" alt="Screenshot 2025-06-11 at 6 11 44 PM" src="https://github.com/user-attachments/assets/9fa33f43-e99a-46e2-bfc8-bf81a8728499" />
+    </td>
+  </tr>
+</table>
 <p>
  - Next, we'll need to reload IIS again. From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click "Stop". Wait a bit. Right-click osTicket-vm and click "Start". 
 </p>
@@ -522,10 +548,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" height="350" alt="OT38" src="https://github.com/user-attachments/assets/27d503c2-ef04-4100-b1bf-abf209c1c014" />
+      <img width="1269" alt="Screenshot 2025-06-11 at 6 37 08 PM" src="https://github.com/user-attachments/assets/dc3e63da-138e-44dd-978d-603f1fbe651a" />
     </td>
     <td>
-      <img width="1000" alt="OT39" src="https://github.com/user-attachments/assets/e6f78834-d85d-4958-b823-2adfcc5065db" />
+      <img width="1034" alt="Screenshot 2025-06-11 at 6 40 30 PM" src="https://github.com/user-attachments/assets/79ea4522-3e65-4ea2-b98d-77cc8bc5202e" />
     </td>
   </tr>
 </table>
@@ -533,13 +559,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Lets check our work and try to load the osTicket site.
 </p>
 <p>
- - In IIS on the left under Connections: osTicket-vm -> Sites -> Default Web Site -> osticket.
+ - In IIS on the left under Connections: expand osTicket-vm -> expand Sites -> expand Default Web Site -> click osticket.
 </p> 
 <p>
- - Then under Browse Folder, click Browse *:80 (http).
+ - Then under Manage Folder and Browse Folder, click "Browse *:80 (http)".
 </p>
 <p>
- - We did it! </p>
+ - If the osTicket site loads up (it should look like anInstaller page that says "Thank You for Choosing osTicket!") in the web browser then that means we have done everything right so far up to now! </p>
 <p>
  - We still need to grab some missing extensions.
 </p>
