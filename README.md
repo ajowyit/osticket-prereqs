@@ -771,36 +771,76 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT60" src="https://github.com/user-attachments/assets/6dc3d06e-30e3-4fa3-956a-dc332b6cac2d" />
+      <img width="885" alt="Screenshot 2025-06-12 at 8 33 20 PM" src="https://github.com/user-attachments/assets/7bd0e8dc-83bd-4b4f-98b8-278e89fc3289" />
     </td>
     <td>
-      <img width="1000" alt="OT61" src="https://github.com/user-attachments/assets/6bebe1fa-9e59-4314-a9f4-6ccf7b8c4eed" />
+      <img width="600" alt="Screenshot 2025-06-12 at 8 34 07 PM" src="https://github.com/user-attachments/assets/ccefb5f8-14d7-4a74-9c72-9cbf3699f450" />
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td>
+      <img width="600" alt="Screenshot 2025-06-12 at 8 34 37 PM" src="https://github.com/user-attachments/assets/79e1189a-c82d-4614-beae-ecbe522ffa99" />
+    </td>
+    <td>
+      <img width="601" alt="Screenshot 2025-06-12 at 8 34 46 PM" src="https://github.com/user-attachments/assets/2c6bf64a-2bf0-4ee0-ab20-d92fbe641fd8" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="600" alt="Screenshot 2025-06-12 at 8 34 53 PM" src="https://github.com/user-attachments/assets/3d367fdf-947d-48d5-aa46-e8d86aa4423a" />
+    </td>
+    <td>
+      <img width="599" alt="Screenshot 2025-06-12 at 8 35 00 PM" src="https://github.com/user-attachments/assets/601979ff-dc1d-4389-abb1-950797015afc" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="600" alt="Screenshot 2025-06-12 at 8 35 47 PM" src="https://github.com/user-attachments/assets/c0fe4365-648b-4db7-a340-217838645589" />
+    </td>
+    <td>
+     <img width="387" alt="Screenshot 2025-06-12 at 8 36 20 PM" src="https://github.com/user-attachments/assets/4058b685-f234-4b8e-80fb-c33ae2ae00cd" />
+    </td>
+  </tr>
+</table>
+
+
+
 <p>
- - Go back to the "osTicket-Installation-Files" folder on our Desktop. Install HeidiSQL. Double click "HeidiSQL_12.3.0.6589_Setup".</p>
+ - Go back to the "osTicket-Installation-Files" folder on our Desktop. Install HeidiSQL. Double click "HeidiSQL_12.3.0.6589_Setup". The installer window will pop up.
+</p>
 <p>
  - HeidiSQL is an application that lets us to make a connection to our database, and configure it.
 </p>
 <p>
- - Find the "osTicket-Installation-Files" folder.
+ - Select "I accept the agreement" and click "Next". Keep clicking "Next" until you see "Install" then click "Install". Then a window should pop up saying "Setup jas finished installing HeidiSQL on your computer.". Make sure "Launch HeidiSQL" is checked and click "Finish". Then in the next window click "Skip".
+</p>
+<br/>
+
+<p>
+ <img width="688" alt="Screenshot 2025-06-12 at 8 36 59 PM" src="https://github.com/user-attachments/assets/272dbb60-fa74-4d4e-ad51-6e5d2809da32" />
 </p>
 <p>
- - Select and download "HeidiSQL_12.3.0.6589_Setup". Agree, click "Next", and "Install". Make sure "Launch HeidiSQL" is checked, click "Finish and Skip".
-</p>
-<p>
- - Create a new Session Manager. Click +New. Under Settings, User is root and password is root like we had set up earlier. Click "Open".
+ - Create a new Session Manager. At the bottom left, click "+ New". Under Settings, User is root and password is root like we had set up earlier. Click "Open".
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT62" src="https://github.com/user-attachments/assets/21120f81-f277-4db9-b013-80712b35c638" />
+      <img width="940" alt="Screenshot 2025-06-12 at 8 37 45 PM" src="https://github.com/user-attachments/assets/956f9df4-4904-447f-bd0f-64bb373c606f" />
     </td>
     <td>
-      <img width="1000" alt="OT63" src="https://github.com/user-attachments/assets/f57d4bfa-5ae8-4bda-9e1b-01e0e44c75c2" />
+     <img width="937" alt="Screenshot 2025-06-12 at 8 38 04 PM" src="https://github.com/user-attachments/assets/5afc4f15-1880-4f57-9ec5-443568881355" />
     </td>
   </tr>
 </table>
@@ -815,18 +855,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT64" src="https://github.com/user-attachments/assets/d43b69fc-9119-4b54-a4a3-e8cc672c671b" />
+      <img width="862" alt="Screenshot 2025-06-12 at 8 40 00 PM" src="https://github.com/user-attachments/assets/b579766c-01af-4f4c-8f44-494c89cd8209" />
     </td>
     <td>
-      <img width="1000" alt="OT65" src="https://github.com/user-attachments/assets/81757509-c7c7-438a-bc28-90ae592bb7ae" />
+      <img width="858" alt="Screenshot 2025-06-12 at 8 40 37 PM" src="https://github.com/user-attachments/assets/760cf08c-a978-402a-bcfd-3716d90f1ae2" />
     </td>
   </tr>
 </table>
 <p>
- - Go back to the browser.
+ - Go back to the browser and fill in Database Settings.
 </p>
 <p>
- - MySQL Database: osTicket - MySQL Username: root - MySQL Password: root
+ - MySQL Database: osTicket
+</p>
+<p>
+  - MySQL Username: root 
+</p>
+<p>
+ - MySQL Password: root
 </p>
 <p>
  - Click "Install Now".
@@ -844,7 +890,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>✅ Conclusion</h2>
 
-<p>This concludes our project. We successfully installed osTicket on our Windows virtual machine! Most companies use some form of a ticketing system in their every day operations. This project gave me the opportunity to experince a sample of what all is required to simply load a web page you might use at work. We'll dive into osTicket and do some post-install configurations in the next project. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+<p>We successfully installed osTicket on a Windows Virtual Machine hosted in Azure! Ticketing systems like osTicket are widely used by companies to manage internal and external support requests. This project provided valuable hands-on experience in setting up the infrastructure required to run a web-based application — offering insight into the layers involved in delivering a seemingly simple web page.
+</p>
+<p></p>
+In the next phase, we’ll explore post-installation configurations and take a deeper dive into how osTicket can be tailored to fit real-world IT support workflows.
+</p>
+<p>
+Don’t forget to stop your VMs in Azure to avoid unnecessary charges.
+Thanks for following along — see you in the next project! 😎  
 </p>
 <br/>
 
