@@ -746,32 +746,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="OT58" src="https://github.com/user-attachments/assets/cd36a756-1ca5-4e09-b40f-4053312ec347" />
-    </td>
-    <td>
-      <img width="1000" alt="OT59" src="https://github.com/user-attachments/assets/a45d41a6-c605-45a5-8941-ad0afe07ff53" />
-    </td>
-  </tr>
-</table>
+<p>
+ <img width="858" alt="Screenshot 2025-06-12 at 8 28 47 PM" src="https://github.com/user-attachments/assets/bf62765f-adcc-4cbc-97b4-d1a6ecca0795" />
+</p>
 <p>
  - Go back to the osTicket webpage in the browser. Click Continue at the bottom of the page. We will finish setting up osTicket here.
 </p>
 <p>
- - Name your Help Desk how you see fit.</p>
+ - You will be taken to a page titled "osTicket Basic Installation". Fill out the System Settings and the Admin User parts of the page. Name your Help Desk how you see fit.</p>
 <p>
- - The Default email doesn't need to be a real email. Once it is filled out, scroll down.
+ - The Default email doesn't need to be a real email. Once it's filled out, scroll down and continue to the Admin User part.
 </p>
 <p>
  - Put yourself as the Admin User. This email doesn'matter either but it has to be different from the one above.
 </p>
 <p>
- - Username: "adminuser" Password: "Password1". Let's keep it simple and make a note this information for later. 
+ - Make the username and passwordthe following: Username: "adminuser" Password: "Password1". Let's keep it simple and make a note this information for later. 
 </p>
 <p>
- - Before we fill out the Database Settings, we need to install one last thing/. 
+ - Before we fill out the Database Settings, we need to install one last thing. 
 </p>
 <br/>
 
@@ -786,7 +779,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </tr>
 </table>
 <p>
- - In "osTicket-Installation-Files" on our Desktop, install HeidiSQL.</p>
+ - Go back to the "osTicket-Installation-Files" folder on our Desktop. Install HeidiSQL. Double click "HeidiSQL_12.3.0.6589_Setup".</p>
 <p>
  - HeidiSQL is an application that lets us to make a connection to our database, and configure it.
 </p>
@@ -842,15 +835,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - osTicket has been successfully installed. 
 </p>
 <p>
- - Take note of the URLs. We'll break these down in the next project. Check out the Staff Control Panel. 
+ - Take note of the URLs. We'll break these down in the next project. Let's click on the link under "Your Staff Control Panel:" and check out the Staff Control Panel. 
 </p>
 <br/>
 
-<img width="600" alt="OT66" src="https://github.com/user-attachments/assets/8ab1af80-d866-45ee-9c74-979b0c408f0d" />
+<img width="859" alt="Screenshot 2025-06-12 at 8 41 15 PM" src="https://github.com/user-attachments/assets/895fcf7d-686a-41d0-a66a-0305fd8139b2" />
 
-
-<p>- There's just something about riding off into the sunset. Lets take a moment to reflect upon the journey we just embarked.</p>
-<br/>
 
 <h2>✅ Conclusion</h2>
 
