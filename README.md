@@ -483,6 +483,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
+
 <p>
  <img width="858" alt="Screenshot 2025-06-11 at 6 01 49 PM" src="https://github.com/user-attachments/assets/d7d4092e-2669-4865-b612-0636b8e89e45" />
 </p>
@@ -504,6 +505,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
+
 <p>
  - Drag the "upload" folder from the "osTicket-v1.15.8" folder and drop it into the "wwwroot" folder. 
 </p>
@@ -574,85 +576,85 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT40" src="https://github.com/user-attachments/assets/a304e8c4-1876-4289-ae04-041c6dd65b68" />
+     <img width="1271" alt="Screenshot 2025-06-12 at 6 48 22 PM" src="https://github.com/user-attachments/assets/7bdd0927-cb7e-4e2f-9b0e-613a3f0e9e7a" />
     </td>
     <td>
-      <img width="1000" alt="OT41" src="https://github.com/user-attachments/assets/ab2161b6-9cc7-47bc-80da-303396c58671" />
+      <img width="1267" alt="Screenshot 2025-06-12 at 6 48 57 PM" src="https://github.com/user-attachments/assets/fdc561dd-1111-47de-80e1-ddf1039dcef9" />
     </td>
   </tr>
 </table>
 <p>
- - In IIS: Sites -> Default Web Site -> osTicket. Double-click PHP. 
+ - In IIS on the left: expand osTicket-vm -> expand Sites -> expand Default Web Site -> select osTicket. Double-click PHP Manager. 
 </p>
 <p>
- - Under PHP Extensions, click "Enable or disable an extension". This will PHP Extensions and let us to enable the ones we're missing.
+ - In PHP Manager, under PHP Extensions, click "Enable or disable an extension". This will let us to enable the extensions we're missing.
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT42" src="https://github.com/user-attachments/assets/577fd5f4-171d-4e7b-8a3b-a2fb330f171b" />
+      <img width="1269" alt="Screenshot 2025-06-12 at 6 49 45 PM" src="https://github.com/user-attachments/assets/dc5a9948-927a-4a33-abc7-0dbbe307d613" />
     </td>
     <td>
-      <img width="1000" alt="OT43" src="https://github.com/user-attachments/assets/8419caa7-9ee7-410f-a61b-d6bf51f24ccf" />
+      <img width="1269" alt="Screenshot 2025-06-12 at 6 50 10 PM" src="https://github.com/user-attachments/assets/b490e594-2e6b-4daa-b19b-ae2c3465fc01" />
     </td>
   </tr>
 </table>
 <p>
- - Scroll and locate "php_imap.dll". Select and Enable. 
+ - Locate "php_imap.dll". Select and Enable. 
 </p>
 <p>
- - Scroll more. Locate "php_intl.dll". Select and Enable.
+ - Locate "php_intl.dll". Select and Enable.
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT44" src="https://github.com/user-attachments/assets/abe343fb-2dd3-41c3-8bc0-462075b4b331" />
+      <img width="1269" alt="Screenshot 2025-06-12 at 6 51 00 PM" src="https://github.com/user-attachments/assets/a93b8682-37ac-4490-a2d2-52b2a15c84d4" />
     </td>
     <td>
-      <img width="1000" alt="OT45" src="https://github.com/user-attachments/assets/9ec4be3e-bafc-4381-8618-64774db13552" />
+      <img width="1038" alt="Screenshot 2025-06-12 at 6 55 35 PM" src="https://github.com/user-attachments/assets/26c00229-29fc-4a41-8050-a63f7ff77f24" />
     </td>
   </tr>
 </table>
 <p>
- - Finally, scroll and locate "php_opcache.dll". Select and Enable.
+ - Locate "php_opcache.dll". Select and Enable.
 </p>
 <p>
- - Refresh the browser and observe the new extensions.
+ - Refresh the browser and we can see that we have added the new extensions.
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT46" src="https://github.com/user-attachments/assets/ae88f162-18eb-4de5-af66-ad7101d4135c" />
+      <img width="887" alt="Screenshot 2025-06-12 at 7 42 36 PM" src="https://github.com/user-attachments/assets/f2d0a9be-9e89-4858-93ea-4071827bf17d" />
     </td>
     <td>
-      <img width="1000" alt="OT47" src="https://github.com/user-attachments/assets/a6049c4b-24dc-43a3-bc37-84fcfaea8459" />
+      <img width="890" alt="Screenshot 2025-06-12 at 7 43 37 PM" src="https://github.com/user-attachments/assets/64baac15-b51f-448a-a7fa-61855b95fa69" />
     </td>
   </tr>
 </table>
 <p>
- - Next, we need to rename a config file and assign some permissions.
+ - Next we need to rename a config file and assign permissions.
 </p>
 <p>
- - In File Explore: Windows(C:) -> inepub -> wwwroot -> osTicket. Open "include".
+ - In File Explore: Windows(C:) -> inepub -> wwwroot -> osTicket -> include. Locate the "ost-sampleconfig.php" file.
 </p>
 <p>
- - In "include", locate the "ost-sampleconfig.php" file. 
+ - Right click the file and click Rename.
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT48" src="https://github.com/user-attachments/assets/3d07decb-060a-448b-b3a4-716ba195266d" />
+    <img width="885" alt="Screenshot 2025-06-12 at 7 44 13 PM" src="https://github.com/user-attachments/assets/94857d3b-2fa5-4726-bff2-1f525ec149e1" />
     </td>
     <td>
-      <img width="1000" alt="OT49" src="https://github.com/user-attachments/assets/e64a4ec1-5a1c-44aa-bf11-2d00a0f87578" />
+      <img width="885" alt="Screenshot 2025-06-12 at 7 44 25 PM" src="https://github.com/user-attachments/assets/375b7aa5-f0b9-4174-9983-4dfc1296edf4" />
     </td>
   </tr>
 </table>
@@ -660,17 +662,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Rename "ost-sampleconfig.php" to "ost-config.php". 
 </p>
 <p>
- - Now that the config file is renamed correctly, right-click "ost-config.php" and click "Properties".
+ - Once it is renamed correctly, right-click "ost-config.php" and click "Properties".
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="396" alt="OT50" src="https://github.com/user-attachments/assets/aec1c679-5b53-42bf-947f-b0794471cc66" />
+      <img width="364" alt="Screenshot 2025-06-12 at 7 45 00 PM" src="https://github.com/user-attachments/assets/5657f09f-51c3-4e84-a07f-734e1eb0b6e4" />
     </td>
     <td>
-      <img width="1000" alt="OT51" src="https://github.com/user-attachments/assets/0dcccb1c-0c7c-4c5e-b285-52036c9386db" />
+      <img width="769" alt="Screenshot 2025-06-12 at 7 45 34 PM" src="https://github.com/user-attachments/assets/c4fecb94-44e3-43fc-9ee5-bc3b8dc14e47" />
     </td>
   </tr>
 </table>
@@ -688,48 +690,51 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT52" src="https://github.com/user-attachments/assets/cd2bb0a3-b748-4c38-b8ab-248647364007" />
+      <img width="523" alt="Screenshot 2025-06-12 at 7 46 03 PM" src="https://github.com/user-attachments/assets/f7fe7b16-056d-4caf-ba10-c3ba97ab438b" />
     </td>
     <td>
-      <img width="1000" alt="OT53" src="https://github.com/user-attachments/assets/c4b5c83b-22f1-4495-a123-2e0bcd849f89" />
+      <img width="770" alt="Screenshot 2025-06-12 at 7 46 17 PM" src="https://github.com/user-attachments/assets/38ad404b-bc8d-4905-bac6-17108acb3e44" />
     </td>
   </tr>
 </table>
 <p>
- - Select "Remove all inherited permissons from this object". 
+ - A window will pop up asking what you would like to do with the current inherited permisisons. Select "Remove all inherited permissons from this object.". 
 </p>
 <p>
- - All the permissions are gone now, click "Add".
+ - All the permissions are gone now. Click "Add".
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT54" src="https://github.com/user-attachments/assets/fb69374c-e4a8-4034-b94b-2dcd99b26c92" />
+      <img width="920" alt="Screenshot 2025-06-12 at 7 46 55 PM" src="https://github.com/user-attachments/assets/b2fd7542-1aa7-4682-9a52-c7dc16724aba" />
     </td>
     <td>
-      <img width="1000" alt="OT55" src="https://github.com/user-attachments/assets/0ce68638-e626-4b4d-81e8-4ecaeb5a2460" />
+      <img width="919" alt="Screenshot 2025-06-12 at 7 47 33 PM" src="https://github.com/user-attachments/assets/1421bba2-3f9d-41b0-b123-a4539708b55d" />
     </td>
   </tr>
 </table>
 <p>
- - Click "Select a principal". In the box, type "everyone". This is not a good idea in the real world but okay forthe purpose of this project. 
+ - Click "Select a principal". In the box, type "everyone". Click "Check Names". Everyone should now be capitalized and then click "OK". This is not a good idea in the real world but okay forthe purpose of this project. 
+</p>
+<br/>
+
+<p>
+ <img width="918" alt="Screenshot 2025-06-12 at 7 48 19 PM" src="https://github.com/user-attachments/assets/0a76aafc-a331-4955-9fb3-f0239f924a73" />
 </p>
 <p>
- - Hit "Check Names". Click "OK".
-</p>
-<p>- Next, check "Full control". Click "OK".
+ - Next, check "Full control". Click "OK".
 </p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT56" src="https://github.com/user-attachments/assets/e7b45e2e-cc2e-486d-99fa-2cf439909769" />
+     <img width="770" alt="Screenshot 2025-06-12 at 7 49 07 PM" src="https://github.com/user-attachments/assets/5b879ae7-bcde-441d-92f8-d47d972bd410" />
     </td>
     <td>
-      <img width="500" height="450" alt="OT57" src="https://github.com/user-attachments/assets/d48c7a76-2e32-4853-9c73-bcb2285438fa" />
+      <img width="366" alt="Screenshot 2025-06-12 at 7 50 18 PM" src="https://github.com/user-attachments/assets/84e326be-24d5-423f-b4cf-16c3f6aace6b" />
     </td>
   </tr>
 </table>
@@ -737,7 +742,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - Review the permission changes we made. Hit "Apply", and click "OK".
 </p>
 <p>
- - We can see our changes here too. Click "OK".
+ - In ost-config.php Properties we can also see our changes. Click "OK".
 </p>
 <br/>
 
